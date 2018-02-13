@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class MyTest30
 {
     @Autowired
-    @Qualifier("coverbean")
+    @Qualifier(value = "coverbean1xx")
     private CoverBean coverbean;
     @Test
     public void test() {

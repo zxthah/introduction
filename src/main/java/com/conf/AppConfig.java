@@ -16,7 +16,7 @@ import org.springframework.context.annotation.ImportResource;
         AppConfig51.class, ConfigDev.class, ConfigPro.class})
 public class AppConfig { //@Bean标签表示让Spring帮我们管理bean
     @Bean
-    public OtherBean otherBean() {
+    public OtherBean otherBeaned() {
         return new OtherBean();
     }
 

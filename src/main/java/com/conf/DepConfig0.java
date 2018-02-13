@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DepConfig0 {
     //第一种方式(对象的注入)
-    @Bean
+    @Bean(name = "coverbean1xx")
     public CoverBean coverbean(OtherBean otherbean) {
         CoverBean cBean = new CoverBean();
         cBean.setOtherBean(otherbean);
